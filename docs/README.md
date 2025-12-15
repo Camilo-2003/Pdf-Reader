@@ -32,6 +32,12 @@ El componente también incluye un *fallback* (`<iframe>`) para asegurar la compa
 
 Asegúrate de que la aplicación del componente esté declarada como dependencia en el `manifest.json` de tu tienda.
 
+```json
+"dependencies": {
+  "{vendor}.pdf-reader": "0.x"
+}
+```
+
 ### 2. Declaración en Blocks
 
 El componente se declara como un bloque estándar en cualquier *template* o bloque principal:
